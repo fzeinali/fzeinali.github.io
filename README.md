@@ -1,57 +1,52 @@
-# Personal Website
+# Farzad Zeinali — Personal Website
 
-A simple, modern personal website built with HTML, CSS, and JavaScript. Hosted on GitHub Pages.
+Personal academic website for **Farzad Zeinali**, PhD Candidate & Graduate Research Assistant in Industrial Engineering at Clemson University.
 
-## Deploy to GitHub Pages
+**Live site:** [https://fzeinali.github.io](https://fzeinali.github.io)
 
-### Option A: User/Organization site (recommended for personal sites)
+## About
 
-Your site will live at `https://YOUR_USERNAME.github.io`
+Decision scientist with expertise in simulation, optimization, statistics, and machine learning. This site showcases research, publications, education, awards, and contact information.
 
-1. **Create a new repository** on GitHub named `YOUR_USERNAME.github.io` (replace with your GitHub username)
-2. **Initialize git and push** from your project folder:
+## Tech Stack
 
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/YOUR_USERNAME.github.io.git
-   git push -u origin main
-   ```
+- HTML, CSS, JavaScript
+- Hosted on GitHub Pages
 
-3. **Enable GitHub Pages** in your repo:
-   - Go to **Settings** → **Pages**
-   - Under "Source", select **Deploy from a branch**
-   - Choose the `main` branch and `/ (root)` folder
-   - Click **Save**
+## Project Structure
 
-4. Your site will be live in 1–2 minutes at `https://YOUR_USERNAME.github.io`
+```
+├── index.html    # Main page (About, Education, News, Awards, Publications, Leadership, Contact)
+├── styles.css    # Styling
+├── script.js     # Mobile navigation
+└── README.md
+```
 
-### Option B: Project site
+## Deploy / Update
 
-Your site will live at `https://YOUR_USERNAME.github.io/REPO_NAME`
+The site deploys automatically from the `main` branch. To push updates:
 
-1. Create any repository (e.g. `my-website`)
-2. Push your code as in Option A
-3. In **Settings** → **Pages**, set source to `main` branch, `/ (root)`
-4. Your site will be at `https://YOUR_USERNAME.github.io/my-website`
+```bash
+git add .
+git commit -m "Your commit message"
+git push origin main
+```
 
-## Customize
+GitHub Pages will rebuild the site in 1–2 minutes.
 
-- **index.html**: Update your name, tagline, about text, projects, and contact links
-- **styles.css**: Adjust colors in the `:root` variables (e.g. `--accent`, `--bg`)
-
-## Local preview
-
-Open `index.html` in a browser, or run a simple server:
+## Local Preview
 
 ```bash
 # Python
 python -m http.server 8000
 
-# Node.js (npx)
+# Node.js
 npx serve
 ```
 
 Then visit `http://localhost:8000`
+
+## Customize
+
+- **index.html** — Update content (about, news, publications, contact)
+- **styles.css** — Adjust colors in `:root` variables (`--accent`, `--bg`, etc.)
