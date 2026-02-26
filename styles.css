@@ -243,6 +243,26 @@ body {
   color: var(--accent);
 }
 
+/* Research (About & Research section) */
+.research-list {
+  margin: 0 0 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.research-list li {
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+
+.research-block {
+  margin: 0 0 1rem;
+  color: var(--text);
+}
+
+.research-block:last-of-type {
+  margin-bottom: 0;
+}
+
 /* News */
 .news-list {
   list-style: none;
